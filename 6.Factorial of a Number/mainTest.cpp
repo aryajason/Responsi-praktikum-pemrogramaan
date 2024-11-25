@@ -2,11 +2,8 @@
 using namespace std;
 int main()
 {
-    int number ;
+    int number = 5 ;
     long long factorial = 1 ;
-    
-    cout << "Enter a Number: " ;
-    cin >> number ;
     
     if(number < 0)
     {
@@ -19,5 +16,12 @@ int main()
             factorial = i * factorial ;
         }
     }
-    cout << "the factorial number of " << number << " is: " << factorial ;
+  
+  int expectedoutput = 120 ;
+  if (factorial == expectedoutput)
+  {
+      cout << "succesfull" << endl;
+  }
+  else
+  cout << "failed" << endl;
 }
