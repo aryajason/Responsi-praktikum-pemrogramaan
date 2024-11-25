@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int number[] = {12,2,4,5,6,7,90,23,10} ;
+    int number[] = {12,2,4,5,6,7,90,23,10,2} ;
     int length = 10 ;
     int maximum  ;
     
