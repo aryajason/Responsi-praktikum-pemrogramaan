@@ -13,5 +13,5 @@ int main()
             maximum = number[i] ;
         }
     }
-    cout << "the maximum number in this list is: " << maximum ;
+    cout << "the maximum number in this list is: " << maximum  << endl;
 }
