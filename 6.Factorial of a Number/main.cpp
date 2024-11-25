@@ -19,5 +19,5 @@ int main()
             factorial = i * factorial ;
         }
     }
-    cout << "the factorial number of " << number << " is: " << factorial ;
+    cout << "the factorial number of " << number << " is: " << factorial << endl ;
 }
